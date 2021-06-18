@@ -1,28 +1,38 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+  <main id="indexpagemain">
+        <p id="indexpagep">Hey! <span role="img" aria-label="wave">👋 </span> i'm</p>
+        <h1 className="px-4 text-5xl mt-4 text-left text-custom-sienna font-bold sm:text-31xl">
+          Sahil Jaganmohan <span role="img" aria-label="rocket">🚀</span>
+        </h1>
+        <p id="indexpagep">
+          i'm a <span className="text-custom-orange">frontend developer</span> <span className="text-custom-gray">from nigeria.</span></p>
+        <p id="indexpagep">
+          my love of beautiful websites made me curious about how they were made. after lots of googling, i discovered web development which led to my interest in frontend development. since then, i've been honing my skills and building projects to apply what i've learnt.
+        </p> 
+        <p id="indexpagep">
+          my technical skills includes
+          <span className="text-custom-purple"> html & css, javascript, react, gatsby, eleventy, git, graphql
+          </span>
+        </p>   
+        <p id="indexpagep">
+            i've built a few other cool stuffs too,<span className="text-custom-green"> checkout my github</span>
+        </p>     
+        <p id="indexpagep">
+            take a look at ,<span className="text-custom-green"> my resume</span>
+        </p>        
+      
+
+        <p id="indexpagep">
+          Start your Gatsby and Tailwind CSS project easily with this Gatsby
+          Starter
+        </p>         
+  </main>
   </Layout>
 )
 
