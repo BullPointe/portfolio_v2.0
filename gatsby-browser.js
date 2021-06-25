@@ -9,3 +9,5 @@
 import "./src/css/tailwind.css"
 
 import '@fontsource/ibm-plex-mono'
+
+import '@fontsource/source-sans-pro'

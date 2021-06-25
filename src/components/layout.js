@@ -1,12 +1,12 @@
 import React from "react"
 import Seo from "./Seo"
-import Header from "./header"
+import Header from "./header/header"
 
 const Layout = ({ children }) => {
   return (
     <>
       <Seo></Seo>
-      <div className="flex min-h-screen bg-custom-back-black">
+      <div className="min-h-screen min-w-full bg-custom-back-black ">
         <div className="container max-w-screen-md z-0">
           <Header></Header>
           {children}

@@ -23,7 +23,8 @@ module.exports = {
       }
     },
     fontFamily: {
-      mono: ['ibm-plex-mono', ...defaultTheme.fontFamily.mono]
+      mono: ['ibm-plex-mono', ...defaultTheme.fontFamily.mono],
+      sans: ['source-sans-pro',...defaultTheme.fontFamily.sans]
     }
   },
   variants: {},

@@ -1,7 +1,7 @@
 
 #menubttn {
-    @apply flex flex-grow md:col-start-6 col-start-5 text-left rounded-full h-14 w-14 mt-4 items-center;
-    @apply justify-center border-2 border-green-400 text-green-100 text-3xl ;
+    @apply flex flex-grow md:col-start-10 col-start-12 text-left rounded-full h-14 w-14 mt-4 mb-2 items-center;
+    @apply justify-center border-2 border-green-400 text-white text-3xl ;
     @apply focus:outline-none bg-blue-500;
     @apply hover:bg-green-400 hover:border-blue-600;
     @apply transition ease-out duration-1000;
@@ -9,23 +9,25 @@
 }
 
 #closebttn {
-    @apply flex flex-grow block text-center rounded-full h-14 w-14 mt-4 items-center;
-    @apply justify-center border-2 border-green-400 text-green-100 text-3xl ;
+    @apply block flex flex-grow text-center rounded-full h-14 w-full mt-4 mb-4 items-center;
+    @apply justify-center border-2 border-green-400 text-white text-3xl ;
     @apply focus:outline-none bg-blue-500;
     @apply hover:bg-green-400 hover:border-blue-600;
     @apply transition ease-out duration-1000;
     @apply hover:scale-110;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
 }
 
 #myNav {
-    @apply w-full h-full absolute top-0 left-0 z-10 bg-black opacity-90 overflow-y-hidden ;
+    @apply w-full h-0 absolute top-0 left-0 z-10 bg-black opacity-100 overflow-y-hidden ;
     transition: 0.5s;
-    /* TODO:CHANGE LOGO */
+    position: fixed;
+    /* TODO:CHANGE Font */
 }
 
 
 #menu-links {
-    @apply block rounded-full w-full mt-5 p-5 text-white text-4xl;
+    @apply block rounded-full w-full mt-5 p-5 text-white text-4xl ;
 }
 
 
@@ -53,6 +55,11 @@
     transform: scaleX(1);
 }
   
-
+header {
+    @apply mb-2;
+    border-style: none none solid none;
+    border-width: 2px;
+    border-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%) 1; 
+}
 
 
