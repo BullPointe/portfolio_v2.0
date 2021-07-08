@@ -17,24 +17,25 @@ const AboutPage = ({data}) =>  {
                 {/* <div className="row-start-1 row-end-2 col-start-1 col-span-full border border-blue-500">
                 </div>    */}
                 <div className="row-start-1 row-end-1 col-start-1 col-span-full mt-4 text-center">
-                    <h1 className="text-3xl sm:text-5xl text-custom-sienna text-center">About</h1>
-                    <p className="text-blue-500 mt-4 col-start-1">a little more about me</p>
+                    <h1 className="text-5xl sm:text-5xl text-custom-sienna text-center">About Me</h1>
+                    <p className="text-blue-500 mt-2 col-start-1">in more depth</p>
                 </div>
 
-                {/* <div className="row-start-2 "/> */}
-                <div className="row-start-2 row-span-4 col-start-1 col-span-3">
-                <GatsbyImage image={sahilImg} alt="Sahil" class="m-4 ring-4 ring-red-500 ring-opacity-50"/>
+                <div className="row-start-2 row-span-3 col-start-1 col-span-full border border-gray-100 md:mx-0 mx-4 rounded-xl"/>
+
+                <div className="row-start-2 row-span-2 col-start-2 col-end-6
+                                md:row-start-2 md:row-span-3 md:col-start-1 md:col-span-5">
+                <GatsbyImage image={sahilImg} alt="Sahil" class="m-4 rounded-xl md:rounded-xl ring-4 ring-red-500 ring-opacity-50"/>
                 </div>   
 
-                <div className="row-start-2 row-span-4 col-start-4 col-span-3 mt-4">
+                <div className="row-start-4 row-span-1 col-start-1 col-span-full text-center
+                                md:row-start-2 md:row-span-3 md:col-start-4 md:col-span-3 md:text-left 
+                                mt-0 md:mt-4">
                     <h1 className="text-3xl sm:text-5xl text-custom-sienna">About Me</h1>
                     <p className="text-blue-500 mt-4 col-start-1">Ayoo</p>
                 </div>
 
-                <div className="row-start-4 row-span-4 col-start-1 col-span-3 mt-4 ml-4">
-                    <h1 className="text-3xl sm:text-5xl text-custom-back-white">About Me</h1>
-                    <p className="text-blue-500 mt-4 col-start-1">Ayoo</p>
-                </div>
+            
             
             </div>
 

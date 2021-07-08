@@ -1,0 +1,16 @@
+.flex-parent{
+  display:flex;
+  @apply mx-4 mt-4 text-custom-back-white;
+}
+.line-div{
+  flex: 1; /* flex-grow */
+  padding: 0 5px;
+}
+.the-line{
+  height: 50%;
+  border-bottom:1px solid #bbb;
+}
+
+#expbutton {
+  @apply inline-block border border-custom-back-white rounded-full p-1 px-4 text-center;
+}

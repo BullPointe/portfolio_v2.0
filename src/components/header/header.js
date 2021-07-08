@@ -50,7 +50,7 @@ class Header extends Component {
 
       <header>
       <div className="grid grid-cols-13 md:grid-cols-10 gap-4" >
-          <h5 className="m-2 mt-auto mb-auto col-start-1 text-custom-back-white align-middle text-center">LOGO</h5>
+          {/* <h1 className="mt-auto mb-auto col-start-1 col-end-5 text-custom-back-white font-bold">Sahil Jaganmohan</h1> */}
           <button id ="menubttn" onClick={this.openNav}>
                       <FaBars></FaBars>
           </button>
