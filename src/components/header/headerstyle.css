@@ -1,4 +1,9 @@
 
+#headericon{
+    @apply flex flex-grow md:col-start-1 col-start-1 text-left rounded-full h-14 w-14 mt-4 mb-2 ml-2 md:ml-1 items-center;
+    @apply justify-center 
+}
+
 #menubttn {
     @apply flex flex-grow md:col-start-10 col-start-12 text-left rounded-full h-14 w-14 mt-4 mb-2 items-center;
     @apply justify-center border-2 border-green-400 text-white text-3xl ;

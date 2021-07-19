@@ -20,6 +20,15 @@ module.exports = {
         'custom-blue': '#90F1EF',
         'custom-darkpink': '#FFADAD',
         'custom-grey': '#adb5bd',
+        'custom-logo-purdue-back':'#c28e0e',
+        'custom-logo-purdue-front':'#000000',
+        'custom-logo-l3harris-back':'#c23a46',
+        'custom-logo-l3harris-front':'#000000',
+        'custom-logo-att-back':'#f98d1e',
+        'custom-logo-att-front':'#ffffff',
+        'custom-logo-cme-back':'#25a9e0',
+        'custom-logo-cme-front':'#ffffff',
+        'custom-portrait-pic-border': '#a24940',
       }
     },
     fontFamily: {

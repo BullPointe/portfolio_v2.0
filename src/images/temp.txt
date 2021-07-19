@@ -1,0 +1,20 @@
+ <section id="L3Harris" className="font-mono">
+        <div className="mt-4 mx-4 border-t-4 border-gray-100">
+            <h1 className="m-4 text-3xl sm:text-3xl text-custom-back-white font-semibold">L3Harris Technologies</h1>
+            <p className="mx-4 text-xs text-blue-500 mt-4">Embedded Software Engineering Intern</p>
+        </div>
+    </section>
+
+    <section id="ATT" className="font-mono">
+        <div className="mt-4 mx-4 border-t-4 border-gray-100">
+            <h1 className="m-4 text-3xl sm:text-3xl text-custom-back-white font-semibold">AT&T</h1>
+            <p className="mx-4 text-xs text-blue-500 mt-4 col-start-1">Software Engineering Intern</p>
+        </div>
+    </section>
+
+    <section id="CME" className="font-mono">
+        <div className="mt-4 mx-4 border-t-4 border-gray-100">
+            <h1 className="m-4 text-3xl sm:text-3xl text-custom-back-white font-semibold">CME Group</h1>
+            <p className="mx-4 text-xs text-blue-500 mt-4 col-start-1">Software Engineering Intern</p>
+        </div>
+    </section>

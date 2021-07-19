@@ -1,1 +1,13 @@
 
+#skillsLogoDiv {
+    @apply flex flex-grow items-center justify-center mb-4;
+}
+
+#skillsLogo {
+    @apply w-24 h-24 p-2 bg-blue-500 text-white rounded-full;
+}
+
+#skillsDesc {
+    @apply text-center underline font-bold mb-2;
+    text-decoration-thickness: 10%;
+}

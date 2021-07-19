@@ -1,16 +1,21 @@
-.flex-parent{
-  display:flex;
-  @apply mx-4 mt-4 text-custom-back-white;
-}
-.line-div{
-  flex: 1; /* flex-grow */
-  padding: 0 5px;
-}
-.the-line{
-  height: 50%;
-  border-bottom:1px solid #bbb;
-}
 
 #expbutton {
-  @apply inline-block border border-custom-back-white rounded-full p-1 px-4 text-center;
+  @apply inline-block border-2 border-custom-back-white rounded-full p-1 px-4 text-center;
 }
+
+#purduecolordot{
+  @apply bg-custom-logo-purdue-back;
+} 
+
+#l3harriscolordot{
+  @apply bg-custom-logo-l3harris-back;
+
+}
+#attcolordot{
+  @apply bg-custom-logo-att-back;
+ 
+}
+#cmecolordot{
+  @apply bg-custom-logo-cme-back;
+
+} 

@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
   <main id="indexpagemain">
         <p id="indexpagep">Hey! <span role="img" aria-label="wave">👋 </span> i'm</p>
-        <h1 className="px-3 text-5xl mt-4 text-left text-custom-sienna font-bold sm:text-31xl">
+        <h1 className="italic px-3 text-5xl mt-4 text-left text-custom-sienna font-bold sm:text-31xl">
           Sahil Jaganmohan 
         </h1>
         <p id="indexpagep">
