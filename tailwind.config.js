@@ -36,6 +36,12 @@ module.exports = {
       sans: ['source-sans-pro',...defaultTheme.fontFamily.sans]
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      ringWidth: ['hover','active'],
+      ringColor: ['hover','active'],
+      ringOpacity: ['hover','active'],
+    }
+  },
   plugins: [],
 }

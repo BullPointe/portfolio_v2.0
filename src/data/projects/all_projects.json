@@ -1,0 +1,85 @@
+{
+    "colors":
+    {
+        "javascript": "bg-red-400 text-gray-700",
+        "react": "bg-blue-400 text-gray-700",
+        "gatsby": "bg-green-400 text-gray-700"
+    },
+    "projects":
+    {
+        "professional":  
+        [
+            {
+                "title":"Normal Project",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                "image":"./images/sunset.jpg",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            },
+            {
+                "title":"Small project",
+                "description":"A big project tat I would love to show yall but I cant hehe",
+                "image":"./images/sunset.jpg",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            },
+            {
+                "title":"Large project",
+                "description":"A big project tat I would love to show yall but I cant hehe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                "image":"./images/sunset.jpg",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            },
+            {
+                "title":"Kinda Projects",
+                "description":"Hey we got some things but not everything lololololoolololololoololollololololoolololololoololol. hehe kinda badddd",
+                "image":"",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            }
+        ],
+        "personal":  
+        [
+            {
+                "title":"Normal Project Personal",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                "image":"./images/sunset.jpg",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            },
+            {
+                "title":"Small project",
+                "description":"A big project tat I would love to show yall but I cant hehe",
+                "image":"./images/sunset.jpg",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            },
+            {
+                "title":"Large project",
+                "description":"A big project tat I would love to show yall but I cant hehe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+                "image":"./images/sunset.jpg",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            },
+            {
+                "title":"Kinda Projects",
+                "description":"Hey we got some things but not everything lololololoolololololoololollololololoolololololoololol. hehe kinda badddd",
+                "image":"",
+                "alt":"sunset",
+                "link":"/",
+                "tags": ["javascript", "react", "gatsby"]
+            }
+        ]
+    }
+}
+
+
+
+

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import {FaBars} from "react-icons/fa"
 import {GiCrossedSabres} from "react-icons/gi"
 import "./headerstyle.css"
-import logo from "./testing.png"
+import logo from "./bitmoji.png"
 
 class Header extends Component {
   constructor(props) {
@@ -11,7 +11,33 @@ class Header extends Component {
     this.myRef = React.createRef();
     this.closeNav = this.closeNav.bind(this);
     this.openNav = this.openNav.bind(this);
+    // this.clickLink = this.clickLink.bind(this);
+
+    this.homeLinkRef = React.createRef();
+    this.experienceLinkRef = React.createRef();
+    this.aboutLinkRef = React.createRef();
+    this.projectsLinkRef = React.createRef();
     //TODO: PROP IMAGE STATIC QUERY
+  }
+
+  componentDidMount() {
+    var path = window.location.pathname;
+    var temp = null;
+    if(path === "/") {
+      temp = this.homeLinkRef;
+    }
+    else if(path === "/experience") {
+      temp = this.experienceLinkRef;
+    }
+    else if(path === "/about") {
+      temp = this.aboutLinkRef;
+    }
+    else if(path === "/projects") {
+      temp = this.projectsLinkRef;
+    }
+
+   
+    temp.current.id = "menu-link-selected";
   }
 
   openNav() {
@@ -38,10 +64,10 @@ class Header extends Component {
                                 <GiCrossedSabres></GiCrossedSabres>
                   </button>
                 {/* <div className="p-10 bg-gray-500 rounded-lg"> */}
-                  <Link id="menu-links" to="/" onClick={this.closeNav}>Home </Link>
-                  <Link id="menu-links" to="/experience" onClick={this.closeNav}>Experience </Link>
-                  <Link id="menu-links" to="/about" onClick={this.closeNav}>About </Link>
-                  <Link id="menu-links" to="/projects" onClick={this.closeNav}>Projects </Link>
+                  <Link id="menu-links" ref={this.homeLinkRef} to="/"  onClick={this.closeNav}>Home </Link>
+                  <Link id="menu-links" ref={this.experienceLinkRef} to="/experience"  onClick={this.closeNav}>Experience </Link>
+                  <Link id="menu-links" ref={this.aboutLinkRef} to="/about" onClick={this.closeNav}>About </Link>
+                  <Link id="menu-links" ref={this.projectsLinkRef} to="/projects" onClick={this.closeNav}>Projects </Link>
                   {/* <Link id="menu-links" to="/" onClick={this.closeNav}>Portfolio </Link> */}
                   {/* https://paulund.co.uk/css-animation-link-underline */}
                 {/* </div> */}
@@ -54,7 +80,7 @@ class Header extends Component {
       <div className="grid grid-cols-13 md:grid-cols-10 gap-4" >
           {/* <h1 className="mt-auto mb-auto col-start-1 col-end-5 text-custom-back-white font-bold">Sahil Jaganmohan</h1> */}
           <div id ="headericon">
-                      <img src={logo} alt="bitmoji" className="w-18 h-18"></img>
+            <Link to="/"><img src={logo} alt="bitmoji" className="w-13 h-14"></img></Link>
           </div>
           
           <button id ="menubttn" onClick={this.openNav}>

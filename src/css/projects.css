@@ -1,0 +1,23 @@
+
+#button-regular{
+    @apply rounded-full w-52 h-8 bg-red-500 text-center mx-2;
+    @apply focus:outline-none border-2 border-gray-200 ring-0 ring-blue-500;
+}
+
+#button-regular:hover {
+    @apply hover:ring-4;
+    transition-duration: 500ms;
+}
+
+#button-clicked{
+    @apply rounded-full w-52 h-8 bg-red-500 text-center mx-2;
+    @apply focus:outline-none border-2 border-custom-back-white ring-4 ring-blue-500;
+}
+
+#tags {
+    @apply inline-block rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2;
+}
+
+#projDisplay {
+    transition-duration: 4s;
+}

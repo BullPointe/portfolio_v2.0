@@ -60,6 +60,27 @@
     transform: scaleX(1);
 }
   
+
+#menu-link-selected {
+    @apply block rounded-full w-full mt-5 p-5 text-white text-4xl ;
+}
+
+#menu-link-selected {
+    position: relative;
+}
+
+#menu-link-selected:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+    visibility: visible;
+    @apply rounded-full;
+}
+
 header {
     @apply mb-2;
     @apply bg-custom-back-black;

@@ -31,10 +31,11 @@ const useStyles = makeStyles({
     // fontWeight: "600",
     fontFamily: "inherit",
   },
-  p:{
+  h6:{
     fontSize: "0.75rem",
     lineHeight: "1rem",
-  }
+    fontFamily: "inherit",
+  },
 
 });
 
@@ -79,7 +80,7 @@ const ExperiencePage = () => {
                   <div className="border-b-4 pb-4">
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>Purdue University</Typography>
                     <div className="mt-2 mx-1 text-blue-500">
-                      <Typography variant="p" component="p" classes={{p:classes.p}}>Student</Typography>
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Student</Typography>
                     </div> 
                   </div>
                 </TimelineContent>
@@ -93,7 +94,7 @@ const ExperiencePage = () => {
                   <div className="border-b-4 pb-4">
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>L3Harris Technologies</Typography>
                     <div className="mt-2 mx-1 text-blue-500">
-                      <Typography variant="p" component="p" classes={{p:classes.p}}>Embedded Software Engineering Intern</Typography>
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Embedded Software Engineering Intern</Typography>
                     </div> 
                   </div>
                 </TimelineContent>
@@ -107,7 +108,7 @@ const ExperiencePage = () => {
                   <div className="border-b-4 pb-4">
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>AT&T</Typography>
                     <div className="mt-2 mx-1 text-blue-500">
-                      <Typography variant="p" component="p" classes={{p:classes.p}}>Software Engineering Intern</Typography>
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Software Engineering Intern</Typography>
                     </div> 
                   </div>
                 </TimelineContent>
@@ -120,7 +121,7 @@ const ExperiencePage = () => {
                   <div className="border-b-0 pb-4">
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>CME Group</Typography>
                     <div className="mt-2 mx-1 text-blue-500">
-                      <Typography variant="p" component="p" classes={{p:classes.p}}>Software Engineering Intern</Typography>
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Software Engineering Intern</Typography>
                     </div> 
                   </div>              
                 </TimelineContent>
