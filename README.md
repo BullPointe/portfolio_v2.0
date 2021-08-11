@@ -1,6 +1,18 @@
 TODO:
 
-Unique Key for Project Stuff Key purposes
+<!-- Projects Page Info! -->
+Experience Page Info!
+
+HOME PAGE:
+<!-- Resume Links -->
+<!-- Hyperlinks -->
+Wave Animation
+
+ABOUT:
+Picture Recenter
+<!-- VERFIY LOADING ON SMALLER SCREEN -->
+
+
 
 
 

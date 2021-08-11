@@ -34,9 +34,9 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `projects`,
+        name: `data`,
         // provide the path to your image folder here:
-        path: `./src/data/projects`,
+        path: `./src/data/`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,

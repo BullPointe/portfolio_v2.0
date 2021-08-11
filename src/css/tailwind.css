@@ -12,8 +12,4 @@
         @apply flex-grow mx-auto flex flex-col font-mono text-custom-back-white px-4 text-left;
     }
 
-    #indexpagep {
-        @apply px-4 mt-4 text-sm text-custom-back-white sm:mt-8;
-    }
-
 }

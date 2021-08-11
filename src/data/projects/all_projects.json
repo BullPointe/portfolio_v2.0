@@ -1,81 +1,114 @@
 {
     "colors":
     {
-        "javascript": "bg-red-400 text-gray-700",
-        "react": "bg-blue-400 text-gray-700",
-        "gatsby": "bg-green-400 text-gray-700"
+        "C": "bg-yellow-400",
+        "python":"bg-yellow-400",
+        "javascript": "bg-yellow-400",
+        "SystemVerilog":"bg-yellow-400",
+
+        "react": "bg-blue-400",
+        "gatsby": "bg-green-400",
+        "jekyll": "bg-red-600 text-gray-200",
+        "graphql": "bg-purple-700 text-gray-200",
+        "OpenMP": "bg-green-400",
+        "MPI": "bg-green-400",
+        "scikit_learn":"bg-green-400",
+        
+        "STM_32":"bg-purple-400",
+        "SPI" : "bg-purple-400",
+        "I2C" : "bg-purple-400",
+        "DMA" : "bg-purple-400",
+
+        "ARM_v6_M": "bg-red-400",
+        
+        "ASIC_Design":"bg-red-400",
+        "RTL":"bg-red-400",
+        
+        "research":"bg-indigo-700 text-gray-200"
+
+
+
+
     },
     "projects":
     {
         "professional":  
         [
             {
-                "title":"Normal Project",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-                "image":"./images/sunset.jpg",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "title":"MapReduce",
+                "description":"Developed a full MapReduce implementation desgined to run across several multi-core machines. The purpose of the application is to accurately index words from several large text files, the program is optimized to distrubute the work-load, efficiently process each word, and merge independent procesesses while minimizing time and space complexity.",
+                "image":"./images/mapreduce.png",
+                "alt":"mapreduce",
+                "link":"Map_Reduce_using_OpenMP_and_MPI.pdf",
+                "tags": ["C", "OpenMP", "MPI"]
             },
             {
-                "title":"Small project",
-                "description":"A big project tat I would love to show yall but I cant hehe",
-                "image":"./images/sunset.jpg",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "title":"USB Full-Speed Bulk-Transfer SoC Module",
+                "description":"Designed, implemented, and verifyied a System-on-Chip peripheral module that would add USB Full-Speed Bulk-Transfer End-point support to an AHB-Lite based SoC. This includes a full USB 1.0 Transciever and Reciever.",
+                "image":"./images/usbrtl.png",
+                "alt":"USB",
+                "link":"",
+                "tags": ["SystemVerilog","ASIC_Design","RTL"]
             },
             {
-                "title":"Large project",
-                "description":"A big project tat I would love to show yall but I cant hehe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-                "image":"./images/sunset.jpg",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "title":"2048 Microcontroller Game",
+                "description":"Built the game '2048' on a STM-32 microcontroller (ARM v6-m Archiecture). The game includes a score count,keypad controls, and LED's displaying lives. The algorithm efficiently adpatively renders the board, only re-loading objects that have moved, minimizing cpu usage.",
+                "image":"./images/testcircuit.png",
+                "alt":"2048",
+                "link":"",
+                "tags": ["C", "ARM_v6_M","STM_32","SPI","I2C","DMA"]
             },
             {
-                "title":"Kinda Projects",
-                "description":"Hey we got some things but not everything lololololoolololololoololollololololoolololololoololol. hehe kinda badddd",
-                "image":"",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "title":"MOOCs Performance Data Analysis",
+                "description":"A project using student performance prediction in Massive Open Online Courses (MOOCs), where the objective is to predict whether a user will be Correct on First Attempt (CFA) in answering a question. A Gaussian Mixture (GMM) clustering model was trained was 97% accurate in predicting the student's average and individual quiz performance.",
+                "image":"./images/moocs.jpg",
+                "alt":"USB",
+                "link":"moocs.pdf",
+                "tags": ["python", "scikit_learn"]
+            },
+            {
+                "title":"Metagenomics Research at Rutgers Preparatory School",
+                "description":"The research involves metagenomics, the study of genetic material recovered directly from environmental samples. Extracted DNA from these samples are cloned into BAC, or bacterial artificial chromosome vectors and put through Anti-Microbial screening to identify new antibiotics present in the extremely competitive environment. Using metagenomics and next generation sequencing (NGS) to target a specific region of the microbial 16S ribosomal RNA genes are implemented to identify and quantify the bacteria present in soil samples collected from campus environment.",
+                "image":"./images/AdvWaksmanPoster.jpg",
+                "alt":"metagenomic",
+                "tags": ["research"]
+            },
+            {
+                "title":"Waksman Institute Research with Rutgers University",
+                "description":"The research involves growing an individual bacterial colony containing certain engineered plasmids, that enclose inserts that can be identified by selectable markers. Successfully conducted research on the proteins in depth function, process, and its impact in Landoltia Punctata. Submitted multiple DNA sequences to the NCBI.gov database.",
+                "image":"./images/WaksmanPoster.jpg",
+                "alt":"waksman",
+                "tags": ["research"]
             }
+
         ],
         "personal":  
         [
             {
-                "title":"Normal Project Personal",
-                "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-                "image":"./images/sunset.jpg",
-                "alt":"sunset",
+                "title":"Portfolio 2.0",
+                "description":"A full-stack website from scratch. The react website is built on a Gatsby framework to provide speed, security, and a low-latency website. GraphQL is heavily used to organize and query data displayed throughout the website. ",
+                "image":"./images/picofcurrportfolio.png",
+                "alt":"portfolio",
                 "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "tags": ["javascript", "react", "gatsby","graphql"]
             },
             {
-                "title":"Small project",
-                "description":"A big project tat I would love to show yall but I cant hehe",
-                "image":"./images/sunset.jpg",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "title":"BoilerMake2018 - Mood Music ",
+                "description":"Mood Music involves a web interface, easily navigable, in which the user logs into their Spotify account. On clicking one of two buttons, the website communicates with the Fitbit API to obtain information about the user's heartbeat in the last ten minutes and then plots the past 24 hours of heart rate. Using the most recent heart rate data, an appropriate song is searched from the user's list of songs and suggested for the user to listen to.",
+                "image":"./images/moodmusic.png",
+                "alt":"moodmusic",
+                "link":"https://devpost.com/software/mood-music-0g7f6u",
+                "tags": ["javascript","fitbit","spotify"]
             },
             {
-                "title":"Large project",
-                "description":"A big project tat I would love to show yall but I cant hehe.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-                "image":"./images/sunset.jpg",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
-            },
-            {
-                "title":"Kinda Projects",
-                "description":"Hey we got some things but not everything lololololoolololololoololollololololoolololololoololol. hehe kinda badddd",
-                "image":"",
-                "alt":"sunset",
-                "link":"/",
-                "tags": ["javascript", "react", "gatsby"]
+                "title":"Portfolio 1.0",
+                "description":"My first version of my website using Jekyll static site generator. The site was built in high school to display my skills and my experiences. This was replaced by this website, to learn more about react and developing a website from scratch.",
+                "image":"./images/picofoldportfolio.png",
+                "alt":"portfolio1",
+                "link":"https://github.com/BullPointe/BullPointe.github.io",
+                "tags": ["javascript", "jekyll"]
             }
+           
         ]
     }
 }

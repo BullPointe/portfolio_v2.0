@@ -9,25 +9,31 @@ const ProjectsQuery = () => {
           personal {
             alt
             description
-            link
             tags
             title
             image {
               childImageSharp {
-                gatsbyImageData
+                gatsbyImageData(
+                  quality: 100
+                  )
               }
             }
+            link
           }
           professional {
             alt
             description
-            link
             tags
             title
             image {
               childImageSharp {
-                gatsbyImageData(quality: 100)
+                gatsbyImageData(
+                  quality: 100
+                )
               }
+            }
+            link {
+              publicURL
             }
           }
         }
@@ -35,11 +41,26 @@ const ProjectsQuery = () => {
           gatsby
           javascript
           react
+          ARM_v6_M
+          ASIC_Design
+          C
+          DMA
+          I2C
+          MPI
+          OpenMP
+          RTL
+          SPI
+          STM_32
+          SystemVerilog
+          graphql
+          python
+          scikit_learn
+          research
+          jekyll
         }
       }
     }
   }
-  
   `)
   return data.allProjectsJson.nodes;
 }

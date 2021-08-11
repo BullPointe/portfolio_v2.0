@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "sahil-jaganmohan-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Gatsby Website for Sahil Jaganmohan",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sahil Jaganmohan <dev.sahil.jaganmohan@gmail.com>",
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.4.5",
     "@fontsource/source-sans-pro": "^4.4.5",
@@ -28,7 +28,6 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
-    "react-typist": "^2.0.5",
     "tailwindcss": "^2.1.4"
   },
   "devDependencies": {
