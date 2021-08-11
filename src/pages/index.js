@@ -1,5 +1,6 @@
 import * as React from "react"
 import {Link,graphql} from "gatsby"
+import Typewriter from "typewriter-effect";
 
 import Layout from "../components/layout"
 
@@ -8,14 +9,35 @@ import "../css/index.css"
 const IndexPage = ({data}) => (
   <Layout>
   <main id="indexpagemain">
-        <p className="px-4 mt-3 sm:text-sm text-custom-back-white">Hey! <span role="img" aria-label="wave">👋 </span> i'm</p>
+        <p className="px-4 mt-3 sm:text-sm text-custom-back-white">Hey! <span role="img" aria-label="wave" className="wave">👋 </span> i'm</p>
         <h1 className="italic px-3 text-5xl sm:text-5xl mt-4 text-left text-custom-sienna font-bold">
           Sahil Jaganmohan 
         </h1>
 
        
         <div id="indexpagep">
-          i'm a <span className="text-custom-vscode-blue">computer engineer</span> specializing in <span className="text-red-500">embedded systems</span>.
+          i'm a <span className="text-custom-vscode-blue">computer engineer </span> 
+          <span>specializing in </span> 
+
+
+          <span className="text-red-500 inline-block">
+           <Typewriter 
+            options={{
+              strings: [
+                'Embedded Systems',
+                'Software Development',
+                'Design Optimization ',
+                'Distributed Architecture',
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 80,
+              deleteSpeed: 80,
+              pauseFor: 2000,
+            }}
+           />
+
+          </span>
         </div>
 {/*        
         my love of beautiful websites made me curious 
@@ -31,7 +53,7 @@ const IndexPage = ({data}) => (
         <p id="indexpagep">
           my curiousity of <span className="text-blue-400">complex system architecture</span> and <span className="text-blue-400">critical applications</span> has made me
           interested working and honing my skills on <span className="text-blue-400">software/hardware</span> applications, focusing  
-          on <span className="text-red-400">design optimization</span> and <span className="text-red-400">technological advancement</span>.
+          on <span className="text-red-400">design optimization</span> and <span className="text-red-400">advanced implementations</span>.
         </p>   
 
         <p id="indexpagep">

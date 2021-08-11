@@ -54,6 +54,8 @@ const ExperiencePage = () => {
           </div>
       </div>
 
+        {/* COOL HEADER OFF EXPERIENCES */}
+
         <div className="mt-6 mx-4 font-mono text-custom-back-white flex-row overflow-x-scroll whitespace-nowrap">
             <div className="block w-3/4 sm:w-1/2 flex justify-evenly font-medium">
               <Link id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base whitespace-normal bg-custom-logo-cme-back text-black" to="#CME">CME Group<br/>2019</Link>
@@ -68,6 +70,8 @@ const ExperiencePage = () => {
                         
             </div>
         </div>
+
+        {/* TIMELINE CONTENT */}
 
         <div className="mx-4 text-custom-back-white font-mono">
             <Timeline align="left">
@@ -95,7 +99,12 @@ const ExperiencePage = () => {
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>L3Harris Technologies</Typography>
                     <div className="mt-2 mx-1 text-blue-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Embedded Software Engineering Intern</Typography>
+                      
                     </div> 
+                    <div className="mt-2 mx-1 text-green-500">
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2021 - Aug 2021</Typography>
+                    </div> 
+
                   </div>
                 </TimelineContent>
               </TimelineItem>
@@ -110,12 +119,16 @@ const ExperiencePage = () => {
                     <div className="mt-2 mx-1 text-blue-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Software Engineering Intern</Typography>
                     </div> 
+                    <div className="mt-2 mx-1 text-green-500">
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2020 - Aug 2020</Typography>
+                    </div>
                   </div>
                 </TimelineContent>
               </TimelineItem>
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot id="cmecolordot" />
+                  <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
                   <div className="border-b-0 pb-4">
@@ -123,6 +136,9 @@ const ExperiencePage = () => {
                     <div className="mt-2 mx-1 text-blue-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Software Engineering Intern</Typography>
                     </div> 
+                    <div className="mt-2 mx-1 text-green-500">
+                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2019 - Aug 2019</Typography>
+                    </div>
                   </div>              
                 </TimelineContent>
               </TimelineItem>

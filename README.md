@@ -1,12 +1,14 @@
 TODO:
 
 <!-- Projects Page Info! -->
-Experience Page Info!
+Experience Page Info! with Typography
 
 HOME PAGE:
 <!-- Resume Links -->
 <!-- Hyperlinks -->
-Wave Animation
+<!-- Wave Animation -->
+typewriter effect!
+
 
 ABOUT:
 Picture Recenter

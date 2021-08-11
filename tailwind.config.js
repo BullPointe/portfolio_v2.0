@@ -31,7 +31,7 @@ module.exports = {
         'custom-logo-cme-back':'#25a9e0',
         'custom-logo-cme-front':'#ffffff',
         'custom-portrait-pic-border': '#a24940',
-      }
+      },
     },
     fontFamily: {
       mono: ['ibm-plex-mono', ...defaultTheme.fontFamily.mono],
