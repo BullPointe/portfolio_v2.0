@@ -26,13 +26,13 @@ class Header extends Component {
     if(path === "/") {
       temp = this.homeLinkRef;
     }
-    else if(path === "/experience") {
+    else if(path.includes("/experience")) {
       temp = this.experienceLinkRef;
     }
-    else if(path === "/about") {
+    else if(path.includes("/about")) {
       temp = this.aboutLinkRef;
     }
-    else if(path === "/projects") {
+    else if(path.includes("/projects")) {
       temp = this.projectsLinkRef;
     }
 
@@ -65,8 +65,8 @@ class Header extends Component {
                   </button>
                 {/* <div className="p-10 bg-gray-500 rounded-lg"> */}
                   <Link id="menu-links" ref={this.homeLinkRef} to="/"  onClick={this.closeNav}>Home </Link>
-                  <Link id="menu-links" ref={this.experienceLinkRef} to="/experience"  onClick={this.closeNav}>Experience </Link>
                   <Link id="menu-links" ref={this.aboutLinkRef} to="/about" onClick={this.closeNav}>About </Link>
+                  <Link id="menu-links" ref={this.experienceLinkRef} to="/experience"  onClick={this.closeNav}>Experience </Link>
                   <Link id="menu-links" ref={this.projectsLinkRef} to="/projects" onClick={this.closeNav}>Projects </Link>
                   {/* <Link id="menu-links" to="/" onClick={this.closeNav}>Portfolio </Link> */}
                   {/* https://paulund.co.uk/css-animation-link-underline */}

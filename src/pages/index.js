@@ -9,7 +9,7 @@ import "../css/index.css"
 const IndexPage = ({data}) => (
   <Layout>
   <main id="indexpagemain">
-        <p className="px-4 mt-3 sm:text-sm text-custom-back-white">Hey! <span role="img" aria-label="wave" className="wave">👋 </span> i'm</p>
+        <p className="px-4 mt-3 text-lg sm:text-sm text-custom-back-white">Hey! <span role="img" aria-label="wave" className="wave">👋🏼</span> i'm</p>
         <h1 className="italic px-3 text-5xl sm:text-5xl mt-4 text-left text-custom-sienna font-bold">
           Sahil Jaganmohan 
         </h1>
@@ -26,7 +26,7 @@ const IndexPage = ({data}) => (
               strings: [
                 'Embedded Systems',
                 'Software Development',
-                'Design Optimization ',
+                'Design Optimization',
                 'Distributed Architecture',
               ],
               autoStart: true,
@@ -37,7 +37,7 @@ const IndexPage = ({data}) => (
             }}
            />
 
-          </span>
+          </span>.
         </div>
 {/*        
         my love of beautiful websites made me curious 

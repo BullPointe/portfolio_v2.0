@@ -19,3 +19,44 @@
   @apply bg-custom-logo-cme-back;
 
 } 
+
+#bulletDiv ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  @apply text-pink-500;
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#bulletDiv li {
+  @apply py-1;
+}
+
+#bulletDiv {
+  @apply mt-2 mx-1 text-custom-back-white;
+}
+
+#bulletP {
+  @apply text-xs px-3;
+}
+
+#boldAtt {
+  @apply text-custom-logo-att-back;
+}
+
+#boldCme {
+  @apply text-custom-logo-cme-back;
+}
+
+#boldL3 {
+  @apply text-red-500;
+}
+
+#locationColor {
+  @apply mt-2 mx-1 text-purple-400;
+}

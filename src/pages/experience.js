@@ -65,8 +65,8 @@ const ExperiencePage = () => {
             </div>
             
             <div className="block mt-2 pb-4">
-                  <Link id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front" to="#PurdueBS">Purdue University<br/>BS Computer Engineering<br/>2018-2021</Link>
-                  <Link id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front" to="#PurdueMS">Purdue University<br/>MS Computer Engineering<br/>2021-2022</Link>
+                  <Link id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front" to="#Purdue">Purdue University<br/>BS Computer Engineering<br/>2018-2021</Link>
+                  <Link id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front" to="#Purdue">Purdue University<br/>MS Computer Engineering<br/>2021-2022</Link>
                         
             </div>
         </div>
@@ -81,11 +81,40 @@ const ExperiencePage = () => {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <div className="border-b-4 pb-4">
-                    <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>Purdue University</Typography>
-                    <div className="mt-2 mx-1 text-blue-500">
-                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Student</Typography>
-                    </div> 
+                  <div id="Purdue">
+                    <div className="border-b-4 pb-4">
+                      <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>Purdue University</Typography>
+                      <div id="locationColor">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>West Lafayette, IN</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-blue-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Student</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-green-500">
+                        <p className="font-bold text-xs sm:text-sm">BS Computer Engineering - Fall 2021</p>
+                        <p className="py-1 font-bold text-xs sm:text-sm">MS Computer Engineering - Fall 2022</p>
+
+                        </div> 
+                      <div className="mt-2 mx-1">
+                      <p className="text-custom-vscode-blue">Teaching Assistant</p>
+                      <ul className="pl-4 text-xs text-custom-back-white">
+                        <li>ECE 469 GTA - Operating Systems</li>
+                        <li>ECE 368 - Data Structures and Algorithms</li>
+                        <li>ECE 264 - Advanced C Programming</li>
+                        <li>CS 159 - C Programming</li>
+                      </ul>
+                      </div> 
+                      <div className="mt-2 mx-1">
+                        <p className="text-custom-vscode-blue">Relevant Courses</p>
+                        <ul className="pl-4 text-xs text-custom-back-white">
+                          <li>ECE 563 - Programming Parallel Machines</li>
+                          <li>ECE 595QC - Quantum Computing</li>
+                          <li>ECE 469 - Operating Systems</li>
+                          <li>ECE 362 - Microprocessor Systems</li>
+                          <li>ECE 368 - Data Structures and Algorithms</li>
+                        </ul>
+                      </div> 
+                    </div>
                   </div>
                 </TimelineContent>
               </TimelineItem>
@@ -95,16 +124,32 @@ const ExperiencePage = () => {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <div className="border-b-4 pb-4">
-                    <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>L3Harris Technologies</Typography>
-                    <div className="mt-2 mx-1 text-blue-500">
-                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Embedded Software Engineering Intern</Typography>
-                      
-                    </div> 
-                    <div className="mt-2 mx-1 text-green-500">
-                      <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2021 - Aug 2021</Typography>
-                    </div> 
+                  <div id="L3Harris">
+                    <div className="border-b-4 pb-4">
 
+                      <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>L3Harris Technologies</Typography>
+                      <div id="locationColor">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Melbourne, FL</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-blue-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Embedded Software Engineering Intern</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-green-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2021 - Aug 2021</Typography>
+                      </div> 
+
+                      <div id="bulletDiv">
+                        <p id="bulletP">
+                          <ul>
+                            <li>Developed <span id="boldL3">embedded solutions</span> on <span id="boldL3">ARM Controller</span> for upcoming product releases. Focused on <span id="boldL3">optimizing features</span> for better product performance.</li>
+                            <li>Worked throughly to integrate <span id="boldL3">custom FPGA hardware</span> with <span id="boldL3">embdeded software</span>.</li>
+                            <li>Produced several <span id="boldL3">design reviews</span> and <span id="boldL3">conducted code reviews</span>.</li>
+                            <li>In-depth product details are confidential.</li>
+                          </ul>
+                        </p>
+                      </div> 
+
+                    </div>
                   </div>
                 </TimelineContent>
               </TimelineItem>
@@ -113,15 +158,30 @@ const ExperiencePage = () => {
                   <TimelineDot id="attcolordot" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent>
+                <TimelineContent >
+                  <div id="ATT">
                   <div className="border-b-4 pb-4">
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>AT&T</Typography>
+                    <div id="locationColor">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Seattle, WA</Typography>
+                      </div> 
                     <div className="mt-2 mx-1 text-blue-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Software Engineering Intern</Typography>
                     </div> 
                     <div className="mt-2 mx-1 text-green-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2020 - Aug 2020</Typography>
                     </div>
+
+                    <div id="bulletDiv">
+                      <p id="bulletP">
+                        <ul>
+                          <li>Worked on AMP, internal metadata search engine for applications, reports, and data. Using <span id="boldAtt">predictive analysis </span> and <span id="boldAtt">machine learning models </span> to classify users under personas to improve “relevancy” for search results.</li>
+                          <li>Developed an <span id="boldAtt">NLP model</span> to identify abstract “topics” from searches to <span id="boldAtt">improve user experience and search efficiency</span>.</li>
+                        </ul>
+                      </p>
+                    </div> 
+
+                  </div>
                   </div>
                 </TimelineContent>
               </TimelineItem>
@@ -131,15 +191,37 @@ const ExperiencePage = () => {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
+                  <div id="CME">
                   <div className="border-b-0 pb-4">
                     <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>CME Group</Typography>
+                    <div id="locationColor">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Chicago, IL</Typography>
+                      </div> 
                     <div className="mt-2 mx-1 text-blue-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Software Engineering Intern</Typography>
                     </div> 
                     <div className="mt-2 mx-1 text-green-500">
                       <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2019 - Aug 2019</Typography>
                     </div>
-                  </div>              
+
+                    <div id="bulletDiv">
+                      <p id="bulletP">
+                        <ul>
+                          <li>Worked with Order Entry division of the GLOBEX platform. Developed a wrapper and implemented <span id="boldCme">fault tolerance</span> across Market Segment Gateway (MSGW) instances with FT daemons.</li>
+                          <li>Implemented a <span id="boldCme">dynamic state sync</span> across all connected distributed systems: <span id="boldCme">client systems</span>,<span id="boldCme"> order entry systems</span>, and <span id="boldCme">matching engine</span>. Improved team’s SDLC by over <span id="boldCme">30% </span>with FT implementation.</li>
+                          <li>Developed programs to reduce regression report runtime on <span id="boldCme">AWS EC2</span>.</li>
+                          <li>Experienced in <span id="boldCme">SDLC Agile</span> environment working with <span id="boldCme">distributed system architecture</span>.</li>
+                          <li>2019 CME CodeUp- Won <span id="boldCme">3rd Place developing an efficient trading algorithm</span> on derivative markets.</li>
+                        </ul>
+                      </p>
+                    </div> 
+
+
+
+
+   
+                  </div>   
+                  </div>           
                 </TimelineContent>
               </TimelineItem>
             

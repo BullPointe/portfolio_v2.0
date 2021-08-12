@@ -27,7 +27,7 @@
     animation-iteration-count: infinite;  /* Never stop waving :) */
     transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
     display: inline-block;
-    @apply text-3xl;
+    @apply text-2xl;
   }
   
   @keyframes wave-animation {
