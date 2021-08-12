@@ -14,7 +14,7 @@ const ProjectsQuery = () => {
             image {
               childImageSharp {
                 gatsbyImageData(
-                  quality: 100
+                  quality: 50
                   )
               }
             }
@@ -28,7 +28,7 @@ const ProjectsQuery = () => {
             image {
               childImageSharp {
                 gatsbyImageData(
-                  quality: 100
+                  quality: 50
                 )
               }
             }

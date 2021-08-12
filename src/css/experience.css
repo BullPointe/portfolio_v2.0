@@ -1,6 +1,6 @@
 
 #expbutton {
-  @apply inline-block border-2 border-custom-back-white rounded-full p-1 px-4 text-center;
+  @apply inline-block border-2 border-custom-back-white rounded-full p-1 px-4 text-center cursor-pointer hover:border-green-400;
 }
 
 #purduecolordot{

@@ -46,8 +46,8 @@ const AboutPage = ({data}) =>  {
 
                             <p id="bioP" className="text-purple-500">
                                         Ever since I was a kid, I always wanted to have a direct impact on people through the medical
-                                        field, and with a background in technology I found computer engineering to be my major. Where 
-                                        I could develop medical device products ranging from implantable to surgical technology.
+                                        field, and with a background in technology I found computer engineering to be my major. I hope 
+                                        to be developing medical device products ranging from implantable to surgical technology in the nearby future.
                             </p>  
 
                             <p id="bioP" className="text-yellow-500" >
@@ -156,7 +156,7 @@ export const query = graphql`
     portraitImage: file(relativePath: {eq: "portrait.jpg"}) {
       childImageSharp {
         gatsbyImageData(
-            quality: 100
+            quality: 50
             aspectRatio: 1.0
             transformOptions: {cropFocus: CENTER}
             placeholder: BLURRED

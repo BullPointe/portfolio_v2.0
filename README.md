@@ -1,13 +1,13 @@
 TODO:
 
 <!-- Projects Page Info! -->
-Experience Page Info! with Typography
+<!-- Experience Page Info! with Typography -->
 
 HOME PAGE:
 <!-- Resume Links -->
 <!-- Hyperlinks -->
 <!-- Wave Animation -->
-typewriter effect!
+<!-- typewriter effect! -->
 
 
 ABOUT:

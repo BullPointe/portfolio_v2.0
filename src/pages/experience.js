@@ -1,8 +1,8 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import "../css/experience.css"
+import { Link} from "react-scroll";
 
 import {
   Timeline,
@@ -58,16 +58,42 @@ const ExperiencePage = () => {
 
         <div className="mt-6 mx-4 font-mono text-custom-back-white flex-row overflow-x-scroll whitespace-nowrap">
             <div className="block w-3/4 sm:w-1/2 flex justify-evenly font-medium">
-              <Link id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base whitespace-normal bg-custom-logo-cme-back text-black" to="#CME">CME Group<br/>2019</Link>
-              
-              <Link id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base text-center bg-custom-logo-att-back text-black" to="#ATT">AT&T<br/>2020</Link>
-              <Link id="expbutton" className="sm:w-1/8 my-auto text-sm sm:text-base whitespace-normal bg-custom-logo-l3harris-back text-custom-logo-l3harris-front" to="#L3Harris">L3 Harris<br/>2021</Link>
+              <Link   to="CME"
+                      smooth={true}
+                      offset={-120}
+                      duration={700}
+                      id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base whitespace-normal bg-custom-logo-cme-back text-black">
+                      CME Group<br/>2019</Link>
+              <Link   to="ATT"
+                      smooth={true}
+                      offset={-120}
+                      duration={700}
+                      id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base text-center bg-custom-logo-att-back text-black" >
+                      AT&T<br/>2020</Link>
+              <Link   to="L3Harris"
+                      smooth={true}
+                      offset={-120}
+                      duration={700}
+                      id="expbutton" className="sm:w-1/8 my-auto text-sm sm:text-base whitespace-normal bg-custom-logo-l3harris-back text-custom-logo-l3harris-front" >
+                      L3 Harris<br/>2021</Link>
             </div>
             
             <div className="block mt-2 pb-4">
-                  <Link id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front" to="#Purdue">Purdue University<br/>BS Computer Engineering<br/>2018-2021</Link>
-                  <Link id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front" to="#Purdue">Purdue University<br/>MS Computer Engineering<br/>2021-2022</Link>
-                        
+                  <Link to="Purdue"
+                        smooth={true}
+                        offset={-120}
+                        duration={700}
+                        id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front">
+                        Purdue University<br/>BS Computer Engineering<br/>2018-2021
+                  </Link>
+                  <Link to="Purdue"
+                        smooth={true}
+                        offset={-120}
+                        duration={700}
+                        id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front">
+                        Purdue University<br/>MS Computer Engineering<br/>2021-2022
+                  </Link>
+       
             </div>
         </div>
 
@@ -139,14 +165,14 @@ const ExperiencePage = () => {
                       </div> 
 
                       <div id="bulletDiv">
-                        <p id="bulletP">
-                          <ul>
-                            <li>Developed <span id="boldL3">embedded solutions</span> on <span id="boldL3">ARM Controller</span> for upcoming product releases. Focused on <span id="boldL3">optimizing features</span> for better product performance.</li>
-                            <li>Worked throughly to integrate <span id="boldL3">custom FPGA hardware</span> with <span id="boldL3">embdeded software</span>.</li>
-                            <li>Produced several <span id="boldL3">design reviews</span> and <span id="boldL3">conducted code reviews</span>.</li>
-                            <li>In-depth product details are confidential.</li>
-                          </ul>
-                        </p>
+                       
+                        <ul id="bulletP">
+                          <li>Developed <span id="boldL3">embedded solutions</span> on <span id="boldL3">ARM Controller</span> for upcoming product releases. Focused on <span id="boldL3">optimizing features</span> for better product performance.</li>
+                          <li>Worked throughly to integrate custom <span id="boldL3">FPGA hardware</span> with <span id="boldL3">embdeded software</span>.</li>
+                          <li>Produced several <span id="boldL3">design reviews</span> and <span id="boldL3">conducted code reviews</span>.</li>
+                          <li>In-depth product details are confidential.</li>
+                        </ul>
+                       
                       </div> 
 
                     </div>
@@ -173,12 +199,12 @@ const ExperiencePage = () => {
                     </div>
 
                     <div id="bulletDiv">
-                      <p id="bulletP">
-                        <ul>
-                          <li>Worked on AMP, internal metadata search engine for applications, reports, and data. Using <span id="boldAtt">predictive analysis </span> and <span id="boldAtt">machine learning models </span> to classify users under personas to improve “relevancy” for search results.</li>
-                          <li>Developed an <span id="boldAtt">NLP model</span> to identify abstract “topics” from searches to <span id="boldAtt">improve user experience and search efficiency</span>.</li>
-                        </ul>
-                      </p>
+                    
+                      <ul id="bulletP">
+                        <li>Worked on AMP, internal metadata search engine for applications, reports, and data. Using <span id="boldAtt">predictive analysis </span> and <span id="boldAtt">machine learning models </span> to classify users under personas to improve “relevancy” for search results.</li>
+                        <li>Developed an <span id="boldAtt">NLP model</span> to identify abstract “topics” from searches to <span id="boldAtt">improve user experience and search efficiency</span>.</li>
+                      </ul>
+                 
                     </div> 
 
                   </div>
@@ -205,15 +231,15 @@ const ExperiencePage = () => {
                     </div>
 
                     <div id="bulletDiv">
-                      <p id="bulletP">
-                        <ul>
-                          <li>Worked with Order Entry division of the GLOBEX platform. Developed a wrapper and implemented <span id="boldCme">fault tolerance</span> across Market Segment Gateway (MSGW) instances with FT daemons.</li>
-                          <li>Implemented a <span id="boldCme">dynamic state sync</span> across all connected distributed systems: <span id="boldCme">client systems</span>,<span id="boldCme"> order entry systems</span>, and <span id="boldCme">matching engine</span>. Improved team’s SDLC by over <span id="boldCme">30% </span>with FT implementation.</li>
-                          <li>Developed programs to reduce regression report runtime on <span id="boldCme">AWS EC2</span>.</li>
-                          <li>Experienced in <span id="boldCme">SDLC Agile</span> environment working with <span id="boldCme">distributed system architecture</span>.</li>
-                          <li>2019 CME CodeUp- Won <span id="boldCme">3rd Place developing an efficient trading algorithm</span> on derivative markets.</li>
-                        </ul>
-                      </p>
+        
+                      <ul id="bulletP">
+                        <li>Worked with Order Entry division of the GLOBEX platform. Developed a wrapper and implemented <span id="boldCme">fault tolerance</span> across Market Segment Gateway (MSGW) instances with FT daemons.</li>
+                        <li>Implemented a <span id="boldCme">dynamic state sync</span> across all connected distributed systems: <span id="boldCme">client systems</span>,<span id="boldCme"> order entry systems</span>, and <span id="boldCme">matching engine</span>. Improved team’s SDLC by over <span id="boldCme">30% </span>with FT implementation.</li>
+                        <li>Developed programs to reduce regression report runtime on <span id="boldCme">AWS EC2</span>.</li>
+                        <li>Experienced in <span id="boldCme">SDLC Agile</span> environment working with <span id="boldCme">distributed system architecture</span>.</li>
+                        <li>2019 CME CodeUp - Won <span id="boldCme">3rd Place developing an efficient trading algorithm</span> on derivative markets.</li>
+                      </ul>
+
                     </div> 
 
 

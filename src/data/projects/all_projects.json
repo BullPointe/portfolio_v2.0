@@ -52,7 +52,7 @@
             },
             {
                 "title":"2048 Microcontroller Game",
-                "description":"Built the game '2048' on a STM-32 microcontroller (ARM v6-m Archiecture). The game includes a score count,keypad controls, and LED's displaying lives. The algorithm efficiently adpatively renders the board, only re-loading objects that have moved, minimizing cpu usage.",
+                "description":"Built the game '2048' on a STM-32 microcontroller (ARM v6-m Architecture). The game includes a score count,keypad controls, and LED's displaying lives. The algorithm efficiently adpatively renders the board, only re-loading objects that have moved, minimizing cpu usage.",
                 "image":"./images/testcircuit.png",
                 "alt":"2048",
                 "link":"",
