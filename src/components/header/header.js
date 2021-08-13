@@ -80,7 +80,7 @@ class Header extends Component {
       <div className="grid grid-cols-13 md:grid-cols-10 gap-4" >
           {/* <h1 className="mt-auto mb-auto col-start-1 col-end-5 text-custom-back-white font-bold">Sahil Jaganmohan</h1> */}
           <div id ="headericon">
-            <Link to="/"><img src={logo} alt="bitmoji" className="w-13 h-14"></img></Link>
+            <Link to="/"><img src={logo} alt="bitmoji" width="46" height="56"></img></Link>
           </div>
           
           <button id ="menubttn" onClick={this.openNav}>

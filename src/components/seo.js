@@ -10,6 +10,7 @@ const Seo = () => {
     <Helmet>
       <html lang="en" />
       <meta charSet="utf-8" />
+      <meta name="robots" content="index" />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
