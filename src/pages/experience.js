@@ -122,7 +122,7 @@ const ExperiencePage = () => {
 
                         </div> 
                       <div className="mt-2 mx-1">
-                      <p className="text-custom-vscode-blue">Teaching Assistant</p>
+                      <p className="text-yellow-400">Teaching Assistant</p>
                       <ul className="pl-4 text-xs text-custom-back-white">
                         <li>ECE 469 GTA - Operating Systems</li>
                         <li>ECE 368 - Data Structures and Algorithms</li>
@@ -131,7 +131,7 @@ const ExperiencePage = () => {
                       </ul>
                       </div> 
                       <div className="mt-2 mx-1">
-                        <p className="text-custom-vscode-blue">Relevant Courses</p>
+                        <p className="text-yellow-400">Relevant Courses</p>
                         <ul className="pl-4 text-xs text-custom-back-white">
                           <li>ECE 563 - Programming Parallel Machines</li>
                           <li>ECE 595QC - Quantum Computing</li>

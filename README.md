@@ -1,5 +1,7 @@
 TODO:
 
+picture recenter
+<!-- website icon  -->
 <!-- Projects Page Info! -->
 <!-- Experience Page Info! with Typography -->
 

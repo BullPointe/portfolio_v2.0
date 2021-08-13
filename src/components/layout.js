@@ -2,6 +2,7 @@ import React from "react"
 import Seo from "./Seo"
 import Header from "./header/header"
 import Footer from "./footer"
+import Fade from "react-reveal/Fade"
 
 const Layout = ({ children }) => {
   return (
@@ -9,9 +10,14 @@ const Layout = ({ children }) => {
       <Seo></Seo>
       <div className="min-h-screen min-w-full bg-custom-back-black ">
         <div className="container max-w-screen-md z-0">
-          <Header></Header>
+          
+            <Header></Header>
+      
+            <Fade right cascade>
             {children}
-          <Footer></Footer>
+            </Fade>
+            <Footer></Footer>
+            
          
         </div>
       </div>

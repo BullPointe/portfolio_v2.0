@@ -25,9 +25,9 @@ const IndexPage = ({data}) => (
             options={{
               strings: [
                 'Embedded Systems',
+                'High Performance Systems',
                 'Software Development',
                 'Design Optimization',
-                'Distributed Architecture',
               ],
               autoStart: true,
               loop: true,
