@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "./Seo"
+import Seo from "./seo"
 import Header from "./header/header"
 import Footer from "./footer"
 import Fade from "react-reveal/Fade"
