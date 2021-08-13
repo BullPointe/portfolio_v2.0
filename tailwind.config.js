@@ -1,7 +1,17 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: ["./src/**/*.js"],
+  purge: {
+    content: ["./src/**/*.js"],
+    options: {
+      safelist: [
+        'bg-purple-400',
+        'bg-red-600',
+        'bg-indigo-700',
+        'text-gray-200',
+      ]
+    }
+  },
   theme: {
     container: {
       center: true
