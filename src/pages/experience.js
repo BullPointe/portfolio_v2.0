@@ -170,7 +170,7 @@ const ExperiencePage = () => {
                           <li>Developed <span id="boldL3">embedded solutions</span> on an <span id="boldL3">ARM Controller</span> for upcoming product releases, focusing on <span id="boldL3">optimizing features</span> for better product performance.</li>
                           <li>Worked throughly to integrate custom <span id="boldL3">FPGA hardware</span> with <span id="boldL3">embdeded software</span>.</li>
                           <li>Produced several <span id="boldL3">design reviews</span> and <span id="boldL3">conducted code reviews</span>.</li>
-                          <li>In-depth details are confidential as per US Title-13.</li>
+                          <li>In-depth details are confidential as per US Title-18.</li>
                         </ul>
                        
                       </div> 
