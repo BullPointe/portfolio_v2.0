@@ -18,9 +18,9 @@
         "SPI" : "bg-purple-400",
         "I2C" : "bg-purple-400",
         "DMA" : "bg-purple-400",
+        "GPIO": "bg-purple-400",
 
-        "ARM_v6_M": "bg-red-400",
-        
+        "ARM_v6": "bg-red-400",
         "ASIC_Design":"bg-red-400",
         "RTL":"bg-red-400",
         
@@ -36,7 +36,7 @@
         [
             {
                 "title":"MapReduce",
-                "description":"Developed a full MapReduce implementation desgined to run across several multi-core machines. The purpose of the application is to accurately index words from several large text files, the program is optimized to distrubute the work-load, efficiently process each word, and merge independent procesesses while minimizing time and space complexity.",
+                "description":"Developed a full MapReduce implementation designed to run across several multi-core machines. The application accurately indexes words from several large input text files, the program is optimized to distribute the workload, efficiently process each word, and merge independent concurrent processes while minimizing time and space complexity.",
                 "image":"./images/mapreduce.png",
                 "alt":"mapreduce",
                 "link":"Map_Reduce_using_OpenMP_and_MPI.pdf",
@@ -44,7 +44,7 @@
             },
             {
                 "title":"USB Full-Speed Bulk-Transfer SoC Module",
-                "description":"Designed, implemented, and verifyied a System-on-Chip peripheral module that would add USB Full-Speed Bulk-Transfer End-point support to an AHB-Lite based SoC. This includes a full USB 1.0 Transciever and Reciever.",
+                "description":"Designed, implemented, and verified a System-on-Chip peripheral module that would add USB Full-Speed Bulk-Transfer End-point support to an AHB-Lite based SoC. This includes a full USB 1.0 transceiver, receiver, and data buffer.",
                 "image":"./images/usbrtl.png",
                 "alt":"USB",
                 "link":"",
@@ -52,15 +52,15 @@
             },
             {
                 "title":"2048 Microcontroller Game",
-                "description":"Built the game '2048' on a STM-32 microcontroller (ARM v6-m Architecture). The game includes a score count,keypad controls, and LED's displaying lives. The algorithm efficiently adpatively renders the board, only re-loading objects that have moved, minimizing cpu usage.",
+                "description":"Built the game '2048' on a STM-32 microcontroller (ARM v6-m Architecture). The game includes a score count, keypad controls, and LEDs displaying lives. The algorithm adaptively renders the board, only re-loading objects that have moved, thereby minimizing CPU usage.",
                 "image":"./images/testcircuit.png",
                 "alt":"2048",
                 "link":"",
-                "tags": ["C", "ARM_v6_M","STM_32","SPI","I2C","DMA"]
+                "tags": ["C", "ARM_v6","STM_32","SPI","I2C","DMA","GPIO"]
             },
             {
                 "title":"MOOCs Performance Data Analysis",
-                "description":"A project using student performance prediction in Massive Open Online Courses (MOOCs), where the objective is to predict whether a user will be Correct on First Attempt (CFA) in answering a question. A Gaussian Mixture (GMM) clustering model was trained was 97% accurate in predicting the student's average and individual quiz performance.",
+                "description":"A project using student performance prediction in Massive Open Online Courses (MOOCs), where the objective is to predict whether a user will be Correct on First Attempt (CFA) in answering a question. A Gaussian Mixture (GMM) clustering model was developed to be 97% accurate in predicting the student's average and individual quiz performance.",
                 "image":"./images/moocs.jpg",
                 "alt":"USB",
                 "link":"moocs.pdf",
@@ -86,7 +86,7 @@
         [
             {
                 "title":"Portfolio 2.0",
-                "description":"A full-stack website from scratch. The react website is built on a Gatsby framework to provide speed, security, and a low-latency website. GraphQL is heavily used to organize and query data displayed throughout the website. ",
+                "description":"A full-stack website from scratch. The react website is built on the Gatsby framework to provide speed, security, and a low-latency website. GraphQL is heavily used to organize and query data displayed throughout the website. ",
                 "image":"./images/picofcurrportfolio.png",
                 "alt":"portfolio",
                 "link":"/",
@@ -102,7 +102,7 @@
             },
             {
                 "title":"Portfolio 1.0",
-                "description":"My first version of my website using Jekyll static site generator. The site was built in high school to display my skills and my experiences. This was replaced by this website, to learn more about react and developing a website from scratch.",
+                "description":"My first version of my website using Jekyll static site generator. The site was built in 2018 to display my skills and my experiences. This was replaced by v2.0 to learn more about react and develop a website from scratch.",
                 "image":"./images/picofoldportfolio.png",
                 "alt":"portfolio1",
                 "link":"https://github.com/BullPointe/BullPointe.github.io",

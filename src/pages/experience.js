@@ -63,7 +63,7 @@ const ExperiencePage = () => {
                       offset={-120}
                       duration={700}
                       id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base whitespace-normal bg-custom-logo-cme-back text-black">
-                      CME Group<br/>2019</Link>
+                      CME <span className="hidden sm:inline-block">Group</span><br/>2019</Link>
               <Link   to="ATT"
                       smooth={true}
                       offset={-120}
@@ -75,7 +75,7 @@ const ExperiencePage = () => {
                       offset={-120}
                       duration={700}
                       id="expbutton" className="sm:w-1/8 my-auto text-sm sm:text-base whitespace-normal bg-custom-logo-l3harris-back text-custom-logo-l3harris-front" >
-                      L3 Harris<br/>2021</Link>
+                      L3 <span className="hidden sm:inline-block">Harris</span><br/>2021</Link>
             </div>
             
             <div className="block mt-2 pb-4">
@@ -167,10 +167,10 @@ const ExperiencePage = () => {
                       <div id="bulletDiv">
                        
                         <ul id="bulletP">
-                          <li>Developed <span id="boldL3">embedded solutions</span> on <span id="boldL3">ARM Controller</span> for upcoming product releases. Focused on <span id="boldL3">optimizing features</span> for better product performance.</li>
+                          <li>Developed <span id="boldL3">embedded solutions</span> on an <span id="boldL3">ARM Controller</span> for upcoming product releases, focusing on <span id="boldL3">optimizing features</span> for better product performance.</li>
                           <li>Worked throughly to integrate custom <span id="boldL3">FPGA hardware</span> with <span id="boldL3">embdeded software</span>.</li>
                           <li>Produced several <span id="boldL3">design reviews</span> and <span id="boldL3">conducted code reviews</span>.</li>
-                          <li>In-depth product details are confidential.</li>
+                          <li>In-depth details are confidential as per US Title-13.</li>
                         </ul>
                        
                       </div> 

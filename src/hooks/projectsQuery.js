@@ -41,7 +41,7 @@ const ProjectsQuery = () => {
           gatsby
           javascript
           react
-          ARM_v6_M
+          ARM_v6
           ASIC_Design
           C
           DMA
@@ -49,6 +49,7 @@ const ProjectsQuery = () => {
           MPI
           OpenMP
           RTL
+          GPIO
           SPI
           STM_32
           SystemVerilog
@@ -57,6 +58,7 @@ const ProjectsQuery = () => {
           scikit_learn
           research
           jekyll
+          
         }
       }
     }

@@ -27,33 +27,34 @@ const AboutPage = ({data}) =>  {
                         
                         <div className="h-64 sm:h-80 overflow-y-auto">
 
-                            <p id="bioP" className="text-gray-100">I was born and rasied in New Jersey, and it's one of my favorite places 
+                            <p id="bioP" className="text-gray-100">I was born and raised in New Jersey, and it's one of my favorite places 
                                         I call home. I also have lived and spent time in Atlanta, Chicago, and of course
                                         Purdue!
                             </p>            
                             <p id="bioP" className="text-green-500">
-                                        I have grown to love playing and watching soccer, ever since I was young! Forza Juve! I am also heavily interested into Football and Basketball too!       
+                                        Ever since I was young, I've loved to play and watch soccer! Forza Juve! I am heavily interested in Football and Basketball too!       
                             </p>  
                             <p id="bioP" className="text-blue-500">
-                                        As an outdoor person I tend to find my way to be outside,
-                                        whether it's hiking, skiing, kayaking, white-water rafting, zipling, etc..
+                                        As an outdoor person, I tend to find my way to be outside,
+                                        whether it's hiking, skiing, kayaking, white-water rafting, ziplining, etc...
                             </p>  
                             <p id="bioP" className="text-pink-500">
-                                        I have a deep interest in the stock market, and I have been trading equities since I was in 
-                                        6th grade. I'm continously learning about new strategies, better ways of analysis, and about
-                                        the multitude of trading vehicles. 
+                                        I have a deep interest in the stock market, I have been trading equities since I was in 
+                                        6th grade. I'm continuously learning about new strategies, better ways of analysis, and
+                                        different trading vehicles. 
                             </p>  
 
                             <p id="bioP" className="text-purple-500">
-                                        Ever since I was a kid, I always wanted to have a direct impact on people through the medical
-                                        field, and with a background in technology I found computer engineering to be my major. I hope 
-                                        to be developing medical device products ranging from implantable to surgical technology in the nearby future.
+                                        Professionally, I had always had my eyes set on providing a direct impact on the medical field and critical systems. 
+                                        Computer Engineering opens plenty of opportunities to work on the software and hardware aspects of such systems. 
+                                        In the future, I hope to work on developing products ranging from implantable to surgical devices.
                             </p>  
 
                             <p id="bioP" className="text-yellow-500" >
                                         I decided to go to Purdue, to complete my undergraduate degree, and the place has
-                                        become a second home for me! The diverse groups of poeple and vast amount of knowledge 
-                                        the place has to offer is unlike any other college I have been to!
+                                        become a second home for me! The diverse groups of people and the vast amount of knowledge 
+                                        the place has to offer has made the entire experience amazing!! As a part of the accelerated 
+                                        program at Purdue, I intend to complete my BS + MS in 4.5 years.
                             </p> 
 
                         </div> 
@@ -156,7 +157,7 @@ export const query = graphql`
     portraitImage: file(relativePath: {eq: "portrait_center.jpg"}) {
       childImageSharp {
         gatsbyImageData(
-            quality: 50
+            quality: 70
             aspectRatio: 1.0
             transformOptions: {cropFocus: CENTER}
             placeholder: BLURRED
