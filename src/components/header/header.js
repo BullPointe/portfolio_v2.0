@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import {FaBars} from "react-icons/fa"
 import {GiCrossedSabres} from "react-icons/gi"
 import "./headerstyle.css"
-import logo from "./bitmoji.png"
+import logo from "./bitmoji.webp"
 
 class Header extends Component {
   constructor(props) {
