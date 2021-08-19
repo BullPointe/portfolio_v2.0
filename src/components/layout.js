@@ -3,6 +3,7 @@ import Seo from "./seo"
 import Header from "./header/header"
 import Footer from "./footer"
 import Fade from "react-reveal/Fade"
+import "../css/layout.css"
 
 const Layout = ({ children }) => {
   return (
