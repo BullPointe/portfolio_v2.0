@@ -61,7 +61,7 @@ const AboutPage = ({data}) =>  {
                     </div>
 
                     <div id="bio"className="row-start-1 sm:col-start-4 sm:col-span-3 ">
-                        <GatsbyImage image={sahilImg} alt="me"className="rounded-full ring ring-custom-portrait-pic-border"></GatsbyImage>
+                        <GatsbyImage image={sahilImg} alt="me" imgStyle={{zIndex:'0'}} className="rounded-full ring ring-custom-portrait-pic-border" id="gatsbyImage"></GatsbyImage>
                     </div>
                 </div> 
 

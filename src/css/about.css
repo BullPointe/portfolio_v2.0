@@ -15,3 +15,7 @@
 #bioP {
     @apply mt-2 text-sm sm:text-xs;
 }
+
+#gatsbyImage {
+    z-index: 2;
+}
