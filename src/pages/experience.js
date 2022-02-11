@@ -136,7 +136,7 @@ const ExperiencePage = () => {
                           <li>ECE 563 - Programming Parallel Machines</li>
                           <li>ECE 595QC - Quantum Computing</li>
                           <li>ECE 469 - Operating Systems</li>
-                          <li>ECE 362 - Microprocessor Systems</li>
+                          <li>ECE 568 - Embedded Systems</li>
                           <li>ECE 368 - Data Structures and Algorithms</li>
                         </ul>
                       </div> 
