@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import "../css/experience.css"
-import { Link} from "react-scroll";
+// import { Link} from "react-scroll";
 
 import {
   Timeline,
@@ -56,46 +56,6 @@ const ExperiencePage = () => {
 
         {/* COOL HEADER OFF EXPERIENCES */}
 
-        <div className="mt-6 mx-4 font-mono text-custom-back-white flex-row overflow-x-scroll whitespace-nowrap">
-            <div className="block w-3/4 sm:w-1/2 flex justify-evenly font-medium">
-              <Link   to="CME"
-                      smooth={true}
-                      offset={-120}
-                      duration={700}
-                      id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base whitespace-normal bg-custom-logo-cme-back text-black">
-                      CME <span className="hidden sm:inline-block">Group</span><br/>2019</Link>
-              <Link   to="ATT"
-                      smooth={true}
-                      offset={-120}
-                      duration={700}
-                      id="expbutton" className="sm:w-1/8 my-auto text-sm  sm:text-base text-center bg-custom-logo-att-back text-black" >
-                      AT&T<br/>2020</Link>
-              <Link   to="L3Harris"
-                      smooth={true}
-                      offset={-120}
-                      duration={700}
-                      id="expbutton" className="sm:w-1/8 my-auto text-sm sm:text-base whitespace-normal bg-custom-logo-l3harris-back text-custom-logo-l3harris-front" >
-                      L3 <span className="hidden sm:inline-block">Harris</span><br/>2021</Link>
-            </div>
-            
-            <div className="block mt-2 pb-4">
-                  <Link to="Purdue"
-                        smooth={true}
-                        offset={-120}
-                        duration={700}
-                        id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front">
-                        Purdue University<br/>BS Computer Engineering<br/>2018-2021
-                  </Link>
-                  <Link to="Purdue"
-                        smooth={true}
-                        offset={-120}
-                        duration={700}
-                        id="expbutton" className="inline-block w-3/4 sm:w-1/2 bg-custom-logo-purdue-back text-custom-logo-purdue-front">
-                        Purdue University<br/>MS Computer Engineering<br/>2021-2022
-                  </Link>
-       
-            </div>
-        </div>
 
         {/* TIMELINE CONTENT */}
 
@@ -140,6 +100,38 @@ const ExperiencePage = () => {
                           <li>ECE 368 - Data Structures and Algorithms</li>
                         </ul>
                       </div> 
+                    </div>
+                  </div>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot id="applecolordot"/>
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <div id="Apple">
+                    <div className="border-b-4 pb-4">
+
+                      <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>Apple Inc.</Typography>
+                      <div id="locationColor">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Cupertino, CA</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-blue-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Embedded Software Engineering Intern</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-green-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>May 2022 - Aug 2022</Typography>
+                      </div> 
+
+                      <div id="bulletDiv">
+                       
+                        <ul id="bulletP">
+                          <li>Silicon Engineering Group <span id="boldApple">(SEG)</span></li>
+                        </ul>
+                       
+                      </div> 
+
                     </div>
                   </div>
                 </TimelineContent>

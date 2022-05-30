@@ -46,9 +46,8 @@ const IndexPage = ({data}) => (
           i discovered web development which led to my interest 
           in frontend development. since then, i've been honing my skills and building projects to apply what i've learnt.
          */}
-        <p id="indexpagep">currently a <span className="text-green-600">senior </span>
-          on track to complete my<span className="text-green-600 "> master's degree </span> 
-          at <span className="text-yellow-500">purdue university </span>
+        <p id="indexpagep">currently a <span className="text-green-600">master's student </span>
+          at <Link to="/experience"><span className="text-yellow-500 underline">purdue university</span></Link> graduating
           by <span className="text-green-600 ">fall 2022</span>.
         </p> 
         <p id="indexpagep">
@@ -81,7 +80,7 @@ export default IndexPage
 
 export const query = graphql`
 query resumeQuery {
-  file(name: {eq: "Sahil_Jaganmohan_Resume_2021"}) {
+  file(name: {eq: "Sahil_Jaganmohan_Resume_2022"}) {
     publicURL
   }
 }

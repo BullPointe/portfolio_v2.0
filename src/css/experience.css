@@ -7,10 +7,14 @@
   @apply bg-custom-logo-purdue-back;
 } 
 
+#applecolordot{
+  @apply bg-custom-logo-apple-front;
+}
+
 #l3harriscolordot{
   @apply bg-custom-logo-l3harris-back;
-
 }
+
 #attcolordot{
   @apply bg-custom-logo-att-back;
  
@@ -43,6 +47,10 @@ ul li::before {
 
 #bulletP {
   @apply text-xs px-3;
+}
+
+#boldApple {
+  @apply text-custom-logo-apple-front font-bold;
 }
 
 #boldAtt {

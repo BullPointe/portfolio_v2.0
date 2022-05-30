@@ -32,7 +32,7 @@ const AboutPage = ({data}) =>  {
                                         Purdue!
                             </p>            
                             <p id="bioP" className="text-green-500">
-                                        Ever since I was young, I've loved to play and watch soccer! Forza Juve! I am heavily interested in Football and Basketball too!       
+                                        Ever since I was young, I've loved to play and watch Soccer! Forza Juve! I am heavily interested in Football and Basketball too!       
                             </p>  
                             <p id="bioP" className="text-blue-500">
                                         As an outdoor person, I tend to find my way to be outside,
