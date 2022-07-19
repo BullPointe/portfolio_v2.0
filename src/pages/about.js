@@ -53,8 +53,7 @@ const AboutPage = ({data}) =>  {
                             <p id="bioP" className="text-yellow-500" >
                                         I decided to go to Purdue, to complete my undergraduate degree, and the place has
                                         become a second home for me! The diverse groups of people and the vast amount of knowledge 
-                                        the place has to offer has made the entire experience amazing!! As a part of the accelerated 
-                                        program at Purdue, I intend to complete my BS + MS in 4.5 years.
+                                        the place has to offer has made the entire experience amazing!! At Purdue, I intend to complete my BS + MS in 4.5 years.
                             </p> 
 
                         </div> 

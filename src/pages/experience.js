@@ -85,7 +85,7 @@ const ExperiencePage = () => {
                       <p className="text-yellow-400">Teaching Assistant</p>
                       <ul className="pl-4 text-xs text-custom-back-white">
                         <li>ECE 469 GTA - Operating Systems</li>
-                        <li>ECE 368 - Data Structures and Algorithms</li>
+                        <li>ECE 368 GTA - Data Structures and Algorithms</li>
                         <li>ECE 264 - Advanced C Programming</li>
                         <li>CS 159 - C Programming</li>
                       </ul>
@@ -93,11 +93,12 @@ const ExperiencePage = () => {
                       <div className="mt-2 mx-1">
                         <p className="text-yellow-400">Relevant Courses</p>
                         <ul className="pl-4 text-xs text-custom-back-white">
+                          <li>ECE 595 - Applied Algorithms</li>
                           <li>ECE 563 - Programming Parallel Machines</li>
                           <li>ECE 595QC - Quantum Computing</li>
                           <li>ECE 469 - Operating Systems</li>
                           <li>ECE 568 - Embedded Systems</li>
-                          <li>ECE 368 - Data Structures and Algorithms</li>
+                          <li>ECE 565 - Computer Architecture</li>
                         </ul>
                       </div> 
                     </div>
@@ -127,7 +128,9 @@ const ExperiencePage = () => {
                       <div id="bulletDiv">
                        
                         <ul id="bulletP">
-                          <li>Silicon Engineering Group <span id="boldApple">(SEG)</span></li>
+                          <li>On the Silicon Engineering Group <span id="boldApple">(SEG)</span></li>
+                          <li>Developed <span id="boldApple"> embedded solutions</span> for analyzing and optimizing performance on Apple <span id="boldApple">SOCs</span>.</li>
+                          <li>Worked on an in-house <span id="boldApple">RTOS</span>; Designed features to interface and interact with <span id="boldApple">hardware architecture</span>, primarily to identify/resolve <span id="boldApple">memory bandwidth bottlenecks</span>.</li>
                         </ul>
                        
                       </div> 
