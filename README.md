@@ -1,3 +1,15 @@
+# 🚀 Quick start
+
+1. Use Yarn to install dependencies
+  a. `yarn install`
+  b. `yarn upgrade`
+2. Use gatsby to build and develop
+  a. `gatsby build`
+  b. `gatsby serve`
+3. Develop
+  a. `gastby develop`
+
+
 TODO:
 
 picture recenter
