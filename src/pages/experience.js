@@ -61,6 +61,39 @@ const ExperiencePage = () => {
 
         <div className="mx-4 text-custom-back-white font-mono">
             <Timeline align="left">
+            <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot id="applecolordot"/>
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <div id="Apple">
+                    <div className="border-b-4 pb-4">
+
+                      <Typography variant="h1" component="h1" classes={{h1:classes.h1}}>Apple Inc.</Typography>
+                      <div id="locationColor">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Cupertino, CA</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-blue-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Embedded Software Engineer</Typography>
+                      </div> 
+                      <div className="mt-2 mx-1 text-green-500">
+                        <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Jan 2023 - Present</Typography>
+                      </div> 
+
+                      <div id="bulletDiv">
+                       
+                        <ul id="bulletP">
+                          <li>Silicon Engineering Group <span id="boldApple">(SEG)</span></li>
+                        </ul>
+                       
+                      </div> 
+
+                    </div>
+                  </div>
+                </TimelineContent>
+              </TimelineItem>
+              {/* PURDUE */}
             <TimelineItem >
                 <TimelineSeparator>
                   <TimelineDot id="purduecolordot"/>
@@ -93,7 +126,7 @@ const ExperiencePage = () => {
                       <div className="mt-2 mx-1">
                         <p className="text-yellow-400">Relevant Courses</p>
                         <ul className="pl-4 text-xs text-custom-back-white">
-                          <li>ECE 595 - Applied Algorithms</li>
+                          <li>ECE 595AA - Applied Algorithms</li>
                           <li>ECE 563 - Programming Parallel Machines</li>
                           <li>ECE 595QC - Quantum Computing</li>
                           <li>ECE 469 - Operating Systems</li>
@@ -105,6 +138,7 @@ const ExperiencePage = () => {
                   </div>
                 </TimelineContent>
               </TimelineItem>
+              {/* APPLE */}
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot id="applecolordot"/>
@@ -139,6 +173,7 @@ const ExperiencePage = () => {
                   </div>
                 </TimelineContent>
               </TimelineItem>
+              {/* L3 Harris */}
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot id="l3harriscolordot"/>
@@ -174,6 +209,7 @@ const ExperiencePage = () => {
                   </div>
                 </TimelineContent>
               </TimelineItem>
+              {/* AT&T */}
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot id="attcolordot" />
