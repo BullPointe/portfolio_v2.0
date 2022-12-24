@@ -32,28 +32,29 @@ const AboutPage = ({data}) =>  {
                                         Purdue!
                             </p>            
                             <p id="bioP" className="text-green-500">
-                                        Ever since I was young, I've loved to play and watch Soccer! Forza Juve! I am heavily interested in Football and Basketball too!       
+                                        Ever since I was young, I've loved to play and watch Soccer! Forza Juve! Also, heavily interested in Football and Basketball too!       
                             </p>  
                             <p id="bioP" className="text-blue-500">
-                                        As an outdoor person, I tend to find my way to be outside,
+                                        As an outdoor person, I find my way to be outside,
                                         whether it's hiking, skiing, kayaking, white-water rafting, ziplining, etc...
                             </p>  
                             <p id="bioP" className="text-pink-500">
-                                        I have a deep interest in the stock market, I have been trading equities since I was in 
-                                        6th grade. I'm continuously learning about new strategies, better ways of analysis, and
-                                        different trading vehicles. 
+                                        I have a deep interest in the stock market, and have been trading equities since I was in 
+                                        6th grade. I'm continuously learning about new strategies, different trading vehicles, and
+                                        methods of analysis.
                             </p>  
 
                             <p id="bioP" className="text-purple-500">
-                                        Professionally, I had always had my eyes set on providing a direct impact on the medical field and critical systems. 
+                                        Professionally, I had always had my eyes set on providing a direct impact on critical medical systems. 
                                         Computer Engineering opens plenty of opportunities to work on the software and hardware aspects of such systems. 
                                         In the future, I hope to work on developing products ranging from implantable to surgical devices.
                             </p>  
 
                             <p id="bioP" className="text-yellow-500" >
-                                        I decided to go to Purdue, to complete my undergraduate degree, and the place has
-                                        become a second home for me! The diverse groups of people and the vast amount of knowledge 
-                                        the place has to offer has made the entire experience amazing!! At Purdue, I intend to complete my BS + MS in 4.5 years.
+                                        I have completed my undergraduate and masters degree at Purdue in 4.5 years. 
+                                        Over that time Purdue has become a second home for me!
+                                        The diverse groups of people and the vast amount of knowledge 
+                                        the place has to offer has made the entire experience amazing!!
                             </p> 
 
                         </div> 
