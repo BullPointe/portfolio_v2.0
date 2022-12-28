@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import {FaMailchimp,FaFileInvoice,FaGithubAlt,FaLinkedin,FaHome} from "react-icons/fa"
+import {FaMailBulk,FaFileInvoice,FaGithubAlt,FaLinkedin,FaHome} from "react-icons/fa"
 
 import "../css/footer.css"
 import GetFooterDeatils from "../hooks/footerQuery"
@@ -13,7 +13,7 @@ const Footer = () => {
             
            
             <div className=" flex justify-center my-4">
-              <a href="mailto:dev.sahil.jaganmohan@gmail.com" aria-label="Mail"><FaMailchimp id="footerLinks" className="bg-pink-700"/></a>
+              <a href="mailto:dev.sahil.jaganmohan@gmail.com" aria-label="Mail"><FaMailBulk id="footerLinks" className="bg-pink-700"/></a>
               <a href="https://www.linkedin.com/in/sahil-jaganmohan" aria-label="Linkedin"><FaLinkedin id="footerLinks" className="bg-blue-700"/></a>
               <Link to="/" aria-label="Home"><FaHome id="footerLinks" className="bg-yellow-700"/></Link>
               <a href="https://github.com/bullpointe" aria-label="Github"><FaGithubAlt id="footerLinks" className="bg-green-700"/></a>
