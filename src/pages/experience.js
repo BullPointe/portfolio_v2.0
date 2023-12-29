@@ -85,6 +85,9 @@ const ExperiencePage = () => {
                        
                         <ul id="bulletP">
                           <li>Silicon Engineering Group <span id="boldApple">(SEG)</span></li>
+                          <li>Engineered embedded solutions to analyze and optimize performance on SoCs, collaborating with <span id="boldApple">hardware architecture</span> to identify and resolve <span id="boldApple">bandwidth bottlenecks</span>. Enhanced operational efficiency and introduced innovative metrics.</li>
+                          <li>Led the bring-up of multiple <span id="boldApple">HW IP Blocks</span> as the <span id="boldApple">SME</span>, leveraging IP capabilities for <span id="boldApple">real-time information processing</span> and achieving significant execution speed-ups.</li>
+                          <li>Elevated infrastructure capabilities and built solutions for <span id="boldApple">large-scale performance analytics</span> across more than 1000 FPGA and silicon boards.</li>
                         </ul>
                        
                       </div> 

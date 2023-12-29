@@ -60,7 +60,7 @@ class Header extends Component {
           {/* </div> */}
 
           <div className="text-center">
-                  <button id ="closebttn" onClick={this.closeNav}>
+                  <button id ="closebttn" onClick={this.closeNav} aria-label="Close Button">
                                 <GiCrossedSabres></GiCrossedSabres>
                   </button>
                 {/* <div className="p-10 bg-gray-500 rounded-lg"> */}
@@ -83,7 +83,7 @@ class Header extends Component {
             <Link to="/"><img src={logo} alt="bitmoji" width="46" height="56"></img></Link>
           </div>
           
-          <button id ="menubttn" onClick={this.openNav}>
+          <button id ="menubttn" onClick={this.openNav} aria-label="Menu Button">
                       <FaBars className="w-14 h-14 p-3 rounded-full"></FaBars>
           </button>
           
