@@ -35,7 +35,7 @@ module.exports = {
         'custom-logo-purdue-back':'#c28e0e',
         'custom-logo-purdue-front':'#000000',
         'custom-logo-apple-back':'#ffffff',
-        'custom-logo-apple-front':'#8f8f8f',
+        'custom-logo-apple-front':'#2e8cff',
         'custom-logo-l3harris-back':'#c23a46',
         'custom-logo-l3harris-front':'#000000',
         'custom-logo-att-back':'#f98d1e',

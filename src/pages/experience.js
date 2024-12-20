@@ -85,9 +85,18 @@ const ExperiencePage = () => {
                        
                         <ul id="bulletP">
                           <li>Silicon Engineering Group <span id="boldApple">(SEG)</span></li>
-                          <li>Engineered embedded solutions to analyze and optimize performance on SoCs, collaborating with <span id="boldApple">hardware architecture</span> to identify and resolve <span id="boldApple">bandwidth bottlenecks</span>. Enhanced operational efficiency and introduced innovative metrics.</li>
-                          <li>Led the bring-up of multiple <span id="boldApple">HW IP Blocks</span> as the <span id="boldApple">SME</span>, leveraging IP capabilities for <span id="boldApple">real-time information processing</span> and achieving significant execution speed-ups.</li>
-                          <li>Elevated infrastructure capabilities and built solutions for <span id="boldApple">large-scale performance analytics</span> across more than 1000 FPGA and silicon boards.</li>
+                          <li>Directed the design and development of an embedded application which <span id="boldApple">dynamically predicts latencies</span> of critical HW IP blocks in real-time,
+                              detecting <span id="boldApple">bandwidth starvation, surges, and idling</span>. Enabled for critical workflows, providing detailed HW insights and potential
+                              optimizations on <span id="boldApple">data access, caching patterns and bandwidth bottlenecks</span>.</li>
+                          <li>Ultimately resulted in a <span id="boldApple">15% caching improvement</span> for key end-user use-cases. Analyzed and eased various <span id="boldApple">bandwidth bottlenecks by 20% </span>
+                              through<span id="boldApple"> software pre-fetching algorithms</span> and <span id="boldApple">proposed HW design changes</span>.</li>
+                          <li>Designed and implemented a <span id="boldApple">live on-device dashboard</span>, broadcasting <span id="boldApple">performance metrics</span> on multiple HW IPs simultaneously. Allowed for a
+                          <span id="boldApple"> comprehensive view </span>and <span id="boldApple">replay capabilities</span> for SoC debugs.</li>
+                          <li>Spearheaded the <span id="boldApple">HW bring-up</span> of multiple IP Blocks across a range of SoCs as the <span id="boldApple">Organization’s Subject Matter Expert</span>. Collaborated and
+                              iterated with <span id="boldApple">hardware architecture and CoreOS </span> for production use-cases.</li>
+                          <li>Led the team in architecting and accelerating a <span id="boldApple">custom large-scale data engineering platform</span>. Improved <span id="boldApple">performance and visualizations speeds by 500%</span>, and <span id="boldApple">memory usage up to 4000%</span>. 
+                              Introduced <span id="boldApple">distributed caching schemes</span> and <span id="boldApple">parallel data processing</span> for additional performance gains. Platform speeds and memory profiling surpassed Apache Spark for many of the department's use-cases. </li>
+                          <li>Technologies: C/C++, RTOS, ARM, Python, Rust, Distributed System Design.</li>                        
                         </ul>
                        
                       </div> 
@@ -113,8 +122,8 @@ const ExperiencePage = () => {
                         <Typography variant="h6" component="h6" classes={{h6:classes.h6}}>Student</Typography>
                       </div> 
                       <div className="mt-2 mx-1 text-green-500">
-                        <p className="font-bold text-xs sm:text-sm">BS Computer Engineering - Fall 2021</p>
                         <p className="py-1 font-bold text-xs sm:text-sm">MS Computer Engineering - Fall 2022</p>
+                        <p className="font-bold text-xs sm:text-sm">BS Computer Engineering - Fall 2021</p>
 
                         </div> 
                       <div className="mt-2 mx-1">

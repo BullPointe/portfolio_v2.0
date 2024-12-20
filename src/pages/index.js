@@ -74,7 +74,7 @@ export default IndexPage
 
 export const query = graphql`
 query resumeQuery {
-  file(name: {eq: "Sahil_Jaganmohan_Resume_2024"}) {
+  file(name: {eq: "Sahil_Jaganmohan_Resume_2025"}) {
     publicURL
   }
 }

@@ -50,7 +50,7 @@ ul li::before {
 }
 
 #boldApple {
-  @apply text-custom-logo-apple-front font-bold;
+  @apply text-custom-logo-apple-front;
 }
 
 #boldAtt {

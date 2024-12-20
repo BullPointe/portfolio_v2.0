@@ -154,12 +154,11 @@ export default AboutPage
 
 export const query = graphql`
   query {
-    portraitImage: file(relativePath: {eq: "portrait_center.jpg"}) {
+    portraitImage: file(relativePath: {eq: "portrait_center_2.jpg"}) {
       childImageSharp {
         gatsbyImageData(
             quality: 70
             aspectRatio: 1.0
-            transformOptions: {cropFocus: CENTER}
             placeholder: BLURRED
           )
       }
